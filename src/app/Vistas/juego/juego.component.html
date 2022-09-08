@@ -1,0 +1,8 @@
+<p>{{this.usuario.nombre}}</p>
+<p>{{this.usuario.apellido}}</p>
+<label>nombre</label><input type="text" [value]="usuario.nombre"/>
+<br>
+<label>apellido</label><input type="text" [value]="usuario.apellido"/>
+<br>
+<input type="button" (click)="this.usuario.mostrar()" value="Aceptar"/>
+<br>
